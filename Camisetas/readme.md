@@ -6,8 +6,8 @@ Uma certa fábrica de camisetas deseja aproveitar as finais de um campeonato de 
 Formular o modelo de PL que minimize os custos.
 
 ## Pedido 2: 
-Após o planejamento anterior, a direção da empresa verificou que a demanda iria variarsubstancialmente dentro dos quatro modelos de camiseta que representavam os quatro times dispu-tando as finais. Apesar de a demanda total ser exatamente aquela anteriormente levantada, o valordas camisetas iria variar em conformidade com o time e sua posição no campeonato. Nas duas prime-iras semanas todos os times estariam em pé de igualdade até que fosse decidido os dois finalistas. Apartir daí, as camisetas dos times eliminados cairiam em valor e em demanda no mercado, e as dos ti-mes finalistas subiriam conforme a Tabela 2.29:
+Após o planejamento anterior, a direção da empresa verificou que a demanda iria variar substancialmente dentro dos quatro modelos de camiseta que representavam os quatro times dispu-tando as finais. Apesar de a demanda total ser exatamente aquela anteriormente levantada, o valordas camisetas iria variar em conformidade com o time e sua posição no campeonato. Nas duas prime-iras semanas todos os times estariam em pé de igualdade até que fosse decidido os dois finalistas. Apartir daí, as camisetas dos times eliminados cairiam em valor e em demanda no mercado, e as dos ti-mes finalistas subiriam conforme a Tabela 2.29:
 
-![alt text](camisetas.png)
+![alt text](img/camisetas.png)
 
 Sabendo-se que existe um completo equilíbrio entre os quatro finalistas, formular o modelo que maximize os lucros da empresa produtora de camisetas.
