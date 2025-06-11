@@ -14,10 +14,10 @@ producao_esperada = {
 
 # Produção mínima para cada árvore
 producao_minima = {
-    "Pinus": 225 * 10,
-    "Carvalho": 9 * 10,
-    "Nogueira": 4.8 * 10,
-    "Araucacia": 3.5 * 10
+    "Pinus": 225 * 1000,
+    "Carvalho": 9 * 1000,
+    "Nogueira": 4.8 * 1000,
+    "Araucacia": 3.5 * 1000
 }
 
 # Área disponível para plantio em cada cidade
@@ -79,9 +79,9 @@ print(f"Status: {LpStatus[prob.status]}\n")
 
 # Encontrou uma solução ótima
 if prob.status == LpStatusOptimal:
-    print(f"Renda Total Máxima: R$ {prob.objective.value():.2f}\n")
+    print(f"Renda total máxima: R$ {prob.objective.value():.2f}\n")
 
-    print("Áreas de Plantio por Cidade e Árvore:\n")
+    print("Áreas de plantio por cidade e árvore:\n")
     for cidade in lista_cidades:
         print(f"{cidade}:")
         for arvore in lista_arvores:
